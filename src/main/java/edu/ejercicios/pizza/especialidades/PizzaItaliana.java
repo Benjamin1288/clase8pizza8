@@ -5,8 +5,8 @@ import edu.ejercicios.pizza.base.Topping;
 
 public class PizzaItaliana extends Pizza {
     private String salsa;
-    public PizzaItaliana(String name, double price, String salsa, Topping... toppings) {
-        super(name, price, toppings);
+    public PizzaItaliana(String name, double price, String salsa, String size,Topping... toppings) {
+        super(name, price, size,toppings);
         this.salsa=salsa;
     }
     public String getSalsa() {
